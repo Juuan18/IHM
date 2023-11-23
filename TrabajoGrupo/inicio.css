@@ -1,0 +1,72 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+/* Tu CSS existente */
+
+/* Estilos para la animación de la imagen */
+.imagen-con-animacion {
+    width: 50%; /* Tamaño inicial de la imagen */
+    max-width: 400px; /* Tamaño máximo de la imagen */
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease; /* Transición para suavizar el efecto */
+  }
+  
+  .imagen-con-animacion:hover {
+    transform: scale(1.1); /* Escalado de la imagen al pasar el mouse */
+  }
+  
+  
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+nav {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 0.5em;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1em;
+    margin: 0 0.5em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    
+    bottom: 0;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    max-width: 800px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}

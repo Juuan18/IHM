@@ -1,0 +1,135 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+nav {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 0.5em;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1em;
+    margin: 0 0.5em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.exhibicion {
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Estilos para la clase exhibicion:hover */
+  .exhibicion:hover {
+    transform: scale(1.05); /* Escalado del elemento al pasar el mouse */
+  }
+  
+  /* Estilos para la clase marca */
+  .marca {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    display: flex;
+    align-items: center; 
+  }
+  
+ 
+  .marca img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-right: 20px; 
+    transition: transform 0.3s ease-in-out; 
+  }
+  
+  .marca img:hover {
+    transform: scale(1.1); 
+  }
+  
+ 
+  .info-auto {
+    flex: 1; 
+  }
+nav a:hover {
+    background-color: #555;
+}
+
+.exhibicion {
+    padding: 20px;
+    text-align: center;
+}
+
+.marca {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.marca img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.marca:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    bottom: 0;
+    width: 100%;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+/* Resto del CSS permanece igual */
+/* ... */
+.marca {
+    display: flex;
+    align-items: center;
+}
+
+.marca img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.info-auto {
+    flex: 1;
+}
